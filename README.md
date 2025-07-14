@@ -10,7 +10,6 @@ This project follows a modular, interpretable ML workflow:
 
 - **Python (Pandas, Scikit-learn)**: Data cleaning, encoding, preprocessing, classification modeling, and export preparation.
 - **Power BI**: Built an interactive visual dashboard for personality insights and trait-level analysis.
-- **Power Query (Power BI)**: Applied transformations for correlation heatmap and matrix-based relationship modeling.
 
 ---
 
@@ -46,7 +45,7 @@ Predict one of three personality types using numerical indicators.
 
 ---
 
-## 📊 4. Power BI Dashboard (Customized)
+## 📊 4. Power BI Dashboard
 
 ### 🎨 Theme:
 Clean dark-mode layout with contrasting color visuals, designed for high readability and visual clarity.
@@ -56,8 +55,7 @@ Clean dark-mode layout with contrasting color visuals, designed for high readabi
 ✅ **KPI Cards**
 - Total Individuals
 - Personality Breakdown (Introverts, Ambiverts, Extroverts)
-- Model Accuracy Display
-- Average Trait Scores (optional)
+- Average Trait Scores 
 
 ✅ **Visuals Created**
 
@@ -65,11 +63,11 @@ Clean dark-mode layout with contrasting color visuals, designed for high readabi
 |------------------------|-----------------------------------------------------|
 | 📊 Bar Chart           | Distribution of Personality Types (Introvert, etc.) |
 | 📶 Stacked Column Chart| Average trait values per personality group          |
-| 🧠 Matrix Heatmap      | Correlation of behavioral traits (color-coded)      |
+| 🍩 Doughnut Chart      | Sum of leadership by personality type               |
+| 🌲 TreeMap             | Sum of Social Energy by personality type            |
 | 📆 Slicers             | Personality Type Filter, Trait Range Selector       |
 
 ✅ **Advanced Features**
-- Conditional formatting in matrix heatmap (green-white-red for correlation strength)
 - Interactive trait comparison using slicers and filters
 - Prediction comparison (if predicted personality labels were added)
 
@@ -78,7 +76,6 @@ Clean dark-mode layout with contrasting color visuals, designed for high readabi
 ## 📦 5. Data Export & Integration
 
 - Used `to_csv()` in Python to export cleaned + labeled data for Power BI
-- Created correlation matrix in Python using `.corr()` and reshaped via Power Query (`Unpivot Columns`)
 - Enabled smooth interaction between ML outputs and dashboard insights
 
 ---
